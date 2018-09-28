@@ -11,8 +11,11 @@ complete it's intended function, I will begin building it to github pages.
 
 ## Installation
 
-note: currently only for local development
+note: currently only for local development <br />
 Clone the repository <br />
 change to project directory <br />
+
+```bash
 npm install
 npm start
+```
