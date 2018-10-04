@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import ListItem from "./ListItem.jsx";
 
+const parkingStatusUrl =
+  "https://us-central1-utdapi-217616.cloudfunctions.net/function-1";
+fetch(parkingStatusUrl).then(data => console.log(data));
 class App extends Component {
   render(props) {
     return (
