@@ -5,7 +5,7 @@ const parkingStatusUrl =
   "https://us-central1-utdapi-217616.cloudfunctions.net/function-1";
 
 let myRequest = new Request("./test.json");
-fetch(./test.json')
+fetch("http://mysafeinfo.com/api/data?list=englishmonarchs&format=json")
   .then(function(response) {
     return response.json();
   })
