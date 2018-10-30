@@ -1,0 +1,26 @@
+[
+  {
+    "structure": "Parking Structure 1",
+    "parking_green": 157,
+    "parking_gold": 112,
+    "parking_orange": 114,
+    "parking_purple": 41,
+    "parking_pay_by_space": 91
+  },
+  {
+    "structure": "Parking Structure 3",
+    "parking_green": 144,
+    "parking_gold": 100,
+    "parking_orange": 110,
+    "parking_purple": 34,
+    "parking_pay_by_space": 41
+  },
+  {
+    "structure": "Parking Structure 4",
+    "parking_green": 133,
+    "parking_gold": 240,
+    "parking_orange": 200,
+    "parking_purple": 10,
+    "parking_pay_by_space": 138
+  }
+]
