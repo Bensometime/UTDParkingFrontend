@@ -5,10 +5,13 @@ const parkingStatusUrl =
   "https://us-central1-utdapi-217616.cloudfunctions.net/function-1";
 
 let myRequest = new Request("./test.json");
-fetch(myRequest).then(response => {
-  console.log(response);
-  let parkingData = JSON.parse(response);
-  console.log(parkingData);
+fetch(myRequest)
+.then(function(response) {
+  return response.blob();
+})
+.then(function(myBlob) {
+  var objectURL = URL.createObjectURL(myBlob);
+  myImage.src = objectURL;
 });
 
 /*let statusJSon = fetch("./test.json");
