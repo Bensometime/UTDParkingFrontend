@@ -3,10 +3,21 @@ import ListItem from "./ListItem.jsx";
 
 const parkingStatusUrl =
   "https://us-central1-utdapi-217616.cloudfunctions.net/function-1";
-let statusJSon = fetch("./test.json");
+
+let myRequest = new Request('./test.json');
+fetch(myReqest).then(function(response){
+  let parkingData = JSON.parse(response);
+  for (var i = 0; i < parkingData.length; i++) {
+     
+  }
+}
+
+/*let statusJSon = fetch("./test.json");
 for (let i of statusJSon) {
   i.json().then(res => console.log(res));
-}
+}*/
+
+
 class App extends Component {
   render(props) {
     return (
